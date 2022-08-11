@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.lf-play-button{
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 40%;
+}

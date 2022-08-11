@@ -1,0 +1,73 @@
+{
+		"name": "air-ball",
+		"version": "1.0.0",
+		"description": "Air Ball",
+		"main": "main.js",
+		"scripts": {
+				"start": "webpack --watch --env.NODE_ENV=development",
+				"build": "webpack --env.NODE_ENV=production",
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Lazyfox-Games/air-ball.git"
+		},
+		"keywords": [
+				"games"
+		],
+		"author": "Sabitha",
+		"license": "ISC",
+		"bugs": {
+				"url": "https://github.com/Lazyfox-Games/air-ball/issues"
+		},
+		"homepage": "https://github.com/Lazyfox-Games/air-ball#readme",
+		"devDependencies": {
+				"@three11/optisize": "1.1.0",
+				"@types/autoprefixer": "9.7.2",
+				"@types/browser-sync": "2.26.1",
+				"@types/browser-sync-webpack-plugin": "2.2.0",
+				"@types/cssnano": "4.0.0",
+				"@types/hammerjs": "2.0.36",
+				"@types/mini-css-extract-plugin": "0.9.1",
+				"@types/node": "14.11.2",
+				"@types/postcss-flexbugs-fixes": "4.2.0",
+				"@types/postcss-url": "8.0.1",
+				"@types/webpack": "4.41.22",
+				"@types/yargs": "15.0.7",
+				"autoprefixer": "9.8.6",
+				"awesome-typescript-loader": "5.2.1",
+				"browser-sync": "2.26.12",
+				"browser-sync-webpack-plugin": "2.2.2",
+				"clean-webpack-plugin": "3.0.0",
+				"copy-webpack-plugin": "^6.2.0",
+				"create-pwa": "2.3.0",
+				"css-loader": "^4.3.0",
+				"cssnano": "4.1.10",
+				"file-loader": "6.1.0",
+				"html-webpack-plugin": "^4.5.0",
+				"mini-css-extract-plugin": "0.11.2",
+				"node-sass": "4.14.1",
+				"node-sass-magic-importer": "5.3.2",
+				"postcss": "8.1.0",
+				"postcss-easy-import": "3.0.0",
+				"postcss-flexbugs-fixes": "4.2.1",
+				"postcss-loader": "4.0.2",
+				"postcss-merge-rules": "4.0.3",
+				"postcss-url": "8.0.0",
+				"postcss-utilities": "0.8.4",
+				"postcss-watch-folder": "1.0.0",
+				"sass-loader": "10.0.2",
+				"source-map-loader": "1.1.0",
+				"style-loader": "^2.0.0",
+				"stylelint": "13.7.2",
+				"stylelint-config-recommended": "3.0.0",
+				"stylelint-scss": "3.18.0",
+				"ts-node": "9.0.0",
+				"tslint": "6.1.3",
+				"tslint-config-prettier": "1.18.0",
+				"typescript": "4.0.3",
+				"webpack": "4.44.2",
+				"webpack-cli": "3.3.12",
+				"yargs": "16.0.3"
+		}
+}
